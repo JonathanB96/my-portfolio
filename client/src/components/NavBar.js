@@ -5,6 +5,11 @@ import '../styles/Navbar.css'
 
 
 export default function NavBar() {
+
+  function navigateTo(pixels){
+
+   
+  }
   return (
     <div className=''>
                 <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top
@@ -16,10 +21,30 @@ export default function NavBar() {
             </button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div className="navbar-nav">
-                <a className="nav-link" aria-current="page" href="#">HOME</a>
-                <a className="nav-link" href="#">ABOUT</a>
-                <a className="nav-link" href="#">PROJECTS</a>
-                <a className="nav-link">CONTACT</a>
+                <a className="nav-link" aria-current="page" href="#" onClick={()=>{
+                   window.scrollTo({
+                    top:  "10",
+                    bihavior: "smooth"
+                  })
+                }}>HOME</a>
+                <a className="nav-link"  onClick={()=>{
+                   window.scrollTo({
+                    top:  "300",
+                    bihavior: "smooth"
+                  })
+                }}>ABOUT</a>
+                <a className="nav-link" onClick={()=>{
+                   window.scrollTo({
+                    top:  "800",
+                    bihavior: "smooth"
+                  })
+                }}>PROJECTS</a>
+                <a className="nav-link"  onClick={()=>{
+                   window.scrollTo({
+                    top:  "2000",
+                    bihavior: "smooth"
+                  })
+                }}>CONTACT</a>
               </div>
             </div>
           </div>

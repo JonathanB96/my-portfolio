@@ -5,3 +5,6 @@
   margin-left: 2.5%;
   font-size: 1.6em;
 }
+.nav-link{
+  cursor: pointer;
+}

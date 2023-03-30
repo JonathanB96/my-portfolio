@@ -6,6 +6,7 @@ import Contact from './Contact';
 import Projects from './Projects';
 import NavBar from './NavBar';
 import '../styles/App.css'
+import Footer from './Footer'
 
 function App() {
   return (
@@ -15,12 +16,14 @@ function App() {
       </div>
       
       
-      <div className="container">
+      <div className="container wrapper">
         <Home/>
        <About/>
        <Projects/>
        <Contact/>
+      
       </div>
+      <Footer/>
       
        
     </div>
