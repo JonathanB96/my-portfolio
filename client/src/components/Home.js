@@ -8,7 +8,7 @@ export default function Home() {
     <div>
         <div className='home'>
                 <div>
-                    <h1 className='main-text'>Full Stack  Developer</h1>
+                    <h1 className='main-text'>Full Stack Web Developer</h1>
                     <p>Hi, my name is Jonathan Bola. A passionate Full Stack <br/>
                         Developer based in Fort Worth, TX. 📍</p>
                         <a href='https://github.com/JonathanB96' target="_blank" className='social'>
@@ -22,7 +22,8 @@ export default function Home() {
                             </svg>
                             
                         </a> 
-                     <p> Tech Stack |</p>
+                     <h5>HTML/CSS | Bootstrap | JavaScript | React | Ruby| Ruby on Rails | SQL
+                     </h5>
                        
                        
                 </div>
