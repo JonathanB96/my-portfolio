@@ -69,8 +69,8 @@ export default function Projects() {
 
                             
 
-                        <div> <button className= "btn btn-dark"><a href='https://github.com/JonathanB96/my-phase-4-project'  target="_blank">Code 💻</a></button> 
-                              <button className= "btn btn-light"><a href='' target="_blank">Live Demo ↗️</a></button>
+                        <div> <button className= "btn btn-dark"><a href='https://github.com/JonathanB96/phase-5-recipe-viewer'  target="_blank">Code 💻</a></button> 
+                              <button className= "btn btn-light"><a href='https://my-recipe-viewer.onrender.com' target="_blank">Live Demo ↗️</a></button>
                         </div>
                       </div>
 
